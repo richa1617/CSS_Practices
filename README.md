@@ -1,1 +1,1 @@
-# CSS_Practics
+# CSS_Practices
