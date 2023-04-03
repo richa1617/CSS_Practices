@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .parent {
+    background-color: blue;
+    width: 40vw;
+    margin: auto;
+    text-align: center;
+    color: white;
+    }
+
+        .child-one {
+        background-color: green;
+         position: relative;
+          top: 5px;
+         left: 5px;
+    }
+
+         .child-two {
+    background-color: red;
+     }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        Parent
+        <div class="child-one">Child 1</div>
+        <div class="child-two">Child 2</div>
+    </div>
+</body>
+</html>
+
+
+<!-- the green box moved to its current position to 5px from the left and from the top without changing the position of elements around it. The element’s original position remains in the flow of the document. The element even overflowed other elements but doesn’t affect their positions.-->

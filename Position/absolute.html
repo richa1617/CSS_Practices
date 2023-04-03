@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .parent {
+    background-color: blue;
+    position: relative;
+    width: 40vw;
+    margin: auto;
+    text-align: center;
+    color: white;
+    }
+
+        .child-one {
+        background-color: green;
+         position: absolute;
+         top:0px;
+        
+    }
+
+         .child-two {
+           background-color: red;
+     }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        Parent
+        <div class="child-one">Child 1</div>
+        <div class="child-two">Child 2</div>
+    </div>
+</body>
+</html>
+
+
+<!--
+    This position’s value works like absolute, as the element is also removed from the normal document flow, but it has 2 differences. The element is only relative to the <html> document and it isn’t affected by scrolling.
+
+ -->
