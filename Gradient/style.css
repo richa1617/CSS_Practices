@@ -1,0 +1,122 @@
+.linear{
+    background: linear-gradient(rgba(2,0,36,1) 0%, rgb(15, 15, 209) 35%, rgba(0,212,255,1) 100%);
+    width:150px;
+    height:150px;
+    border:1px solid black;
+    margin :10px
+}
+
+
+.linear1{
+    background: linear-gradient(to right, rgb(230, 112, 230),rgb(0, 225, 255));
+    width:150px;
+    height:150px;
+    border:1px solid black;
+    margin :10px;
+    font-size :small;
+    color: blue;
+    display: inline-block;
+}
+.linear2{
+    background: linear-gradient(to left, rgb(230, 112, 230),rgb(0, 225, 255));
+    width:150px;
+    height:150px;
+    border:1px solid black;
+    margin :10px;
+    font-size :small;
+    color: blue;
+    display: inline-block;
+}
+.linear3{
+    background: linear-gradient(to top right, rgb(230, 112, 230),rgb(0, 225, 255));
+    width:150px;
+    height:150px;
+    border:1px solid black;
+    margin :10px;
+    font-size :small;
+    color: blue;
+    display: inline-block;
+}
+.linear4{
+    background: linear-gradient(to bottom right, rgb(230, 112, 230),rgb(0, 225, 255));
+    width:150px;
+    height:150px;
+    border:1px solid black;
+    margin :10px;
+    font-size :small;
+    color: blue;
+    display: inline-block;
+}
+.linear5{
+    background: linear-gradient(to top left, rgb(230, 112, 230),rgb(0, 225, 255));
+    width:150px;
+    height:150px;
+    border:1px solid black;
+    margin :10px;
+    font-size :small;
+    color: blue;
+    display: inline-block;
+}
+.linear6{
+    background: linear-gradient(to bottom left, rgb(230, 112, 230),rgb(0, 225, 255));
+    width:150px;
+    height:150px;
+    border:1px solid black;
+    margin :10px;
+    font-size :small;
+    color: blue;
+    display: inline-block;
+}
+
+.radial{
+    background: radial-gradient( rgba(2,0,36,1) 0%, rgb(15, 15, 209) 35%, rgba(0,212,255,1) 100%);
+    width:300px;
+    height:150px;
+    border:1px solid black;
+    margin :10px;
+    font-size :small;
+    color: blue;
+    display: inline-block;
+}
+
+.radial1{
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgb(15, 15, 209) 35%, rgba(0,212,255,1) 100%);
+    width:300px;
+    height:150px;
+    border:1px solid black;
+    margin :10px;
+    font-size :small;
+    color: blue;
+    display: inline-block;
+}
+
+#grad1 {
+    height: 150px;
+    width: 150px;
+ 
+    background-image: radial-gradient(closest-side at 60% 55%, red, yellow, black);
+  }
+  
+  #grad2 {
+    height: 150px;
+    width: 150px;
+  
+    
+    background-image: radial-gradient(farthest-side at 60% 55%, red, yellow, black);
+  }
+  
+  #grad3 {
+    height: 150px;
+    width: 150px;
+    
+    
+    background-image: radial-gradient(closest-corner at 60% 55%, red, yellow, black);
+  }
+  
+  #grad4 {
+    height: 150px;
+    width: 150px;
+    
+    
+    background-image: radial-gradient(farthest-corner at 60% 55%, red, yellow, black);
+  }
