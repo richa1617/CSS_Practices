@@ -1,0 +1,35 @@
+.accordion{
+    display: flex;
+    width: 80%;
+    height: 40px;
+    border: none;
+    padding: 15px;
+    background-color: beige;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.accordion:hover{
+    background-color: rgba(0, 0, 0, 0.14);
+}
+
+i{
+   padding-right: 15px;
+   font-size:20px;
+    
+}
+.content{
+    width: 80%;
+    padding-left: 15px;
+    background-color: beige;
+    margin: 0;
+    display: none;
+}
+
+.content-js{
+    display: block;
+}
+
+i
