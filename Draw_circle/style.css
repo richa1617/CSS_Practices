@@ -1,0 +1,17 @@
+.square{
+   height :200px;
+   width:200px;
+   border:1px solid black;
+   margin:auto;
+   position: relative;
+}
+
+.square::before {
+    display: block;
+    position: absolute;
+    content: '';
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: red;
+}
